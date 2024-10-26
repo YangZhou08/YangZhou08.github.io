@@ -44,10 +44,10 @@
                 <p class="name" style="text-align: center;">
                   Yang Zhou (周旸) 
                 </p>
-                <p>Yang Zhou here. I am a PhD student at Carnegie Mellon University, fortunately working with <a href="https://www.andrew.cmu.edu/user/beidic/">Prof. Beidi Chen</a>. Previously, I was fortunate to work with <a href="https://users.ece.utexas.edu/~dianam/"> Prof. Diana Marculescu</a> on EdgeAI and with <a href="https://people.eecs.berkeley.edu/~keutzer/">Prof. Kurt Keutzer</a> on model quantization. I obtained my bachelor degree at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, studying Electrical and Computer Engineering. </a>
+                <p>Yang Zhou here. I am a PhD student at <a href="https://www.cmu.edu/">Carnegie Mellon University</a>, fortunately working with <a href="https://www.andrew.cmu.edu/user/beidic/">Prof. Beidi Chen</a>. Previously, I was fortunate to work with <a href="https://users.ece.utexas.edu/~dianam/"> Prof. Diana Marculescu</a> on EdgeAI and with <a href="https://people.eecs.berkeley.edu/~keutzer/">Prof. Kurt Keutzer</a> on model quantization. I obtained my bachelor degree at <a href="https://www.utexas.edu/">The University of Texas at Austin</a>, studying Electrical and Computer Engineering. </a>
                 </p>
                 <p>
-                  My current research focus lies in understanding and improving Large Language Models' reasoning and planning ability with special attention for inference efficiency. I consider myself still an junior research and welcome meaningful collaborations of any kind. If you are aligned with my research ideas and would like to discuss, please don't hesitate to reach out. 
+                  My current research focus lies in understanding and improving Large Language Models' reasoning and planning ability with special attention for inference scaling efficiency. I consider myself still an junior research and welcome meaningful collaborations of any kind. If you are aligned with my research ideas and would like to discuss, please don't hesitate to reach out. 
                 </p>
                 <p style="text-align:center">
                   <a href="malito:yangzho6@andrew.cmu.edu">Email</a> &nbsp;/&nbsp;
@@ -94,15 +94,14 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  Most of them related to model compression with the focus of efficiency. (Updated in Oct. 2024) 
+                  Most of them related to model compression with the focus of efficiency. Some are hightlgihted. (Updated in Oct. 2024) 
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-
-    <tr>
+    <tr style="background-color: #ffffd0;">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/siriushead.png' width="300" alt="Sirius Image">
@@ -125,12 +124,14 @@
         <a href="https://infini-ai-lab.github.io/Sirius/">project page</a>
         /
         <a href="https://www.arxiv.org/abs/2409.03856">arXiv</a>
+        /
+        <a href="https://github.com/YangZhou08/deep-gradient-compression">code</a>
         <p>
 				We reveal that contextual sparsity struggles at complex reasoning tasks. We propose a efficient correction method to recover the accuracy degradation of contextual sparsity models while maintaining their efficiency. 
         </p>
     </tr>
 
-    <tr>
+    <tr style="background-color: #ffffd0;">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/llmunveiled.png' width="300" alt="Sirius Image">
@@ -169,6 +170,33 @@
     </tr> 
 
     <tr>
+      <td style="padding:20px;width:25%;vertical-align:middle">
+        <div style="display: flex; align-items: center; height: 100%;">
+          <img src='images/hexgen.png' width="300" alt="HexGen Image">
+        </div> 
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://arxiv.org/abs/2311.11514v2">
+          <span class="papertitle">HexGen: Generative Inference of Large-Scale Foundation Model over Heterogeneous Decentralized Environment</span>
+        </a>
+        <br>
+        <a href="">Youhe Jiang</a>, 
+        <a href="">Ran Yan</a>, 
+        <a href="">Xiaozhe Yao</a>, 
+        <strong>Yang Zhou</strong>, 
+        <a href="">Beidi Chen</a>, 
+        <a href="">Binhang Yuan</a>
+        <br>
+        <em>ICML 2024</em>, 2023 &nbsp 
+        <br>
+        <a href="https://arxiv.org/abs/2311.11514v2">arXiv link</a> 
+        <p>
+          This paper focuses on deploying such services in a heterogeneous and decentralized setting to mitigate the substantial inference costs typically associated with centralized data centers. Towards this end, we propose HexGen, a flexible distributed inference engine that uniquely supports the asymmetric partition of generative inference computations over both tensor model parallelism and pipeline parallelism and allows for effective deployment across diverse GPUs interconnected by a fully heterogeneous network.
+        </p>
+      </td>
+    </tr>
+
+    <tr style="background-color: #ffffd0;">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/dqrm.png' width="300" alt="Sirius Image">
@@ -222,6 +250,31 @@
 				We notice that deploying powerful neural networks on the edge devices tends to lead to thermal emergency which force OS to throttle the frequency of CPU. We propose a dynamic shifting method to prevent thermal throttling by shifting between the weak and strong models of the same dynamic network. 
         </p>
     </tr> 
+
+    <tr style="background-color: #ffffd0;">
+      <td style="padding:20px;width:25%;vertical-align:center">
+        <div style="display: flex; align-items: center; height: 100%;">
+          <img src='images/ant.png' width="300" alt="ANT Image">
+        </div> 
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        <a href="https://openaccess.thecvf.com/content/CVPR2022W/ECV/papers/Liang_ANT_Adapt_Network_Across_Time_for_Efficient_Video_Processing_CVPRW_2022_paper.pdf">
+          <span class="papertitle">ANT: Adapt Network Across Time for Efficient Video Processing</span>
+        </a>
+        <br>
+        <a href="https://jeff-liangf.github.io">Feng Liang</a>, 
+        <a href="https://rudychin.github.io/">Ting-Wu Chin</a>, 
+        <strong>Yang Zhou</strong>, 
+        <a href="https://www.ece.utexas.edu/people/faculty/diana-marculescu">Diana Marculescu</a>
+        <br>
+        <em>CVPRW ECV</em>, 2022 &nbsp 
+        <br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2022W/ECV/papers/Liang_ANT_Adapt_Network_Across_Time_for_Efficient_Video_Processing_CVPRW_2022_paper.pdf">arXiv link</a> 
+        <p>
+          we propose the ANT framework to harness these redundancies for reducing the computational cost of video processing. The proposed ANT adapts a purpose-fit network by inspecting the semantic differences between frames.
+        </p>
+      </td>
+    </tr>
 
     </tbody></table>
       
