@@ -11,7 +11,7 @@
     <link rel="icon" href="images/namename.png" type="image/png">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-    <style>
+    <!-- <style>
         body {
             font-family: Arial, sans-serif;
         }
@@ -31,15 +31,14 @@
         .news-item p {
             margin: 5px 0;
         }
-    </style>
-  </head>
+    </style> -->
 
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
+      <tr style="padding:2px">
+        <td style="padding:2px">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
+            <tr style="padding:2px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
                   Yang Zhou (周旸) 
@@ -51,7 +50,6 @@
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:yangzho6@andrew.cmu.edu">Email</a> &nbsp;/&nbsp; 
-                  <!-- <a href="malito:yangzho6@andrew.cmu.edu">Email</a> &nbsp;/&nbsp; -->
                   <a href="data/YangZhou-CV.pdf">CV</a> &nbsp;/&nbsp;
                   <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=W6CZltIAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
                   <a href="https://x.com/IronSteveZhou">X/Twitter</a> &nbsp;/&nbsp;
@@ -64,35 +62,34 @@
             </tr>
           </tbody></table>
 
-          <!-- Scrollable News Section -->
-          <div class="news-container"> 
-            <img src="images/newicons.png" alt="news" width="30"> 
-            <!-- <span>Latest News</span> -->
-            <h2>Latest News</h2> 
+          <!-- News Section -->
+          <div style="padding:2px;width:100%;vertical-align:middle">
+            <h2>Latest News</h2>
+            <div class="news-container">
+              <div class="news-item">
+                <span class="news-date">September 2024</span>
+                <span class="news-content"><strong>One paper (Sirius)</strong> get accepted at NeurIPS</span>
+              </div>
 
-            <div class="news-item">
-              <h3>September 2024</h3>
-              <p><strong>One paper (Sirius)</strong> get accepted at NeurIPS</p>
-            </div>
+              <div class="news-item">
+                <span class="news-date">February 2024</span>
+                <span class="news-content"><strong>One survey paper (LLM Unveiled)</strong> is now on ArXiv</span>
+              </div>
 
-            <div class="news-item">
-                <h3>February 2024</h3>
-                <p><strong>One survey paper (LLM Unveiled)</strong> is now on ArXiv</p>
-            </div>
+              <div class="news-item">
+                <span class="news-date">August 2023</span>
+                <span class="news-content"><strong>Started graduate school at CMU</strong></span>
+              </div>
 
-            <div class="news-item">
-                <h3>August 2023</h3>
-                <p><strong>Started graduate school at CMU</strong></p>
-            </div>
-
-            <div class="news-item">
-                <h3>May 2023</h3>
-                <p><strong>Graduated from UT Austin</strong></p>
+              <div class="news-item">
+                <span class="news-date">May 2023</span>
+                <span class="news-content"><strong>Graduated from UT Austin</strong></span>
+              </div>
             </div>
           </div>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
+              <td style="padding:2px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
                   Most of them related to model compression with the focus of efficiency. Some are <span style="background-color: #ffffd0;">Highlighted</span>. (Updated in Oct. 2024) 
@@ -103,12 +100,12 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
     <tr style="background-color: #ffffd0;">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:2px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/siriushead.png' width="300" alt="Sirius Image">
         </div> 
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td style="padding:2px;width:75%;vertical-align:middle">
         <a href="https://infini-ai-lab.github.io/Sirius/">
 			<span class="papertitle">Sirius: Contextual Sparsity with Correction for Efficient LLM</span>
         </a>
@@ -133,12 +130,12 @@
     </tr>
 
     <tr style="background-color: #ffffd0;">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:2px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/llmunveiled.png' width="300" alt="Sirius Image">
         </div> 
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td style="padding:2px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2402.16363">
 			<span class="papertitle">LLM Inference Unveiled: Survey and Roofline Model Insights</span>
         <!--  Zhihang Yuan, Yuzhang Shang, Yang Zhou, Zhen Dong, Zhe Zhou, Chenhao Xue, Bingzhe Wu, Zhikai Li, Qingyi Gu, Yong Jae Lee, Yan Yan, Beidi Chen, Guangyu Sun, Kurt Keutzer ---> 
@@ -171,12 +168,12 @@
     </tr> 
 
     <tr>
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:2px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/hexgen.png' width="300" alt="HexGen Image">
         </div> 
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td style="padding:2px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2311.11514v2">
           <span class="papertitle">HexGen: Generative Inference of Large-Scale Foundation Model over Heterogeneous Decentralized Environment</span>
         </a>
@@ -198,12 +195,12 @@
     </tr>
 
     <tr style="background-color: #ffffd0;">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:2px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/dqrm.png' width="300" alt="Sirius Image">
         </div> 
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td style="padding:2px;width:75%;vertical-align:middle">
         <a href="http://arxiv.org/abs/2410.20046">
 			<span class="papertitle">DQRM: Deep Quantized Recommendation Model</span>
         </a>
@@ -228,12 +225,12 @@
     </tr> 
 
     <tr style="background-color: #ffffd0;">
-      <td style="padding:20px;width:25%;vertical-align:middle">
+      <td style="padding:2px;width:25%;vertical-align:middle">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/play_it_cool.png' width="300" alt="Sirius Image">
         </div> 
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td style="padding:2px;width:75%;vertical-align:middle">
         <a href="https://arxiv.org/abs/2206.10849">
 			<span class="papertitle">Play It Cool: Dynamic Shifting Prevents Thermal Throttling</span>
         </a>
@@ -253,12 +250,12 @@
     </tr> 
 
     <tr>
-      <td style="padding:20px;width:25%;vertical-align:center">
+      <td style="padding:2px;width:25%;vertical-align:center">
         <div style="display: flex; align-items: center; height: 100%;">
           <img src='images/ant.png' width="300" alt="ANT Image">
         </div> 
       </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
+      <td style="padding:2px;width:75%;vertical-align:middle">
         <a href="https://openaccess.thecvf.com/content/CVPR2022W/ECV/papers/Liang_ANT_Adapt_Network_Across_Time_for_Efficient_Video_Processing_CVPRW_2022_paper.pdf">
           <span class="papertitle">ANT: Adapt Network Across Time for Efficient Video Processing</span>
         </a>
@@ -299,10 +296,10 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
-              <td style="padding:0px">
+              <td style="padding:2px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Last updated: October 2024. Webpage thanks to <a href="https://jonbarron.info/">Jon Barron</a>. 
+                  Last updated: October 2024. Webpage thanks to <a href="http://yunongliu.com">Yunong Liu</a>
                 </p>
               </td>
             </tr>
