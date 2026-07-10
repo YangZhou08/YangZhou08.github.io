@@ -121,6 +121,15 @@ section { padding: 52px 0; border-bottom: 1px solid var(--line); }
   border: 1px solid var(--line);
   border-top: 3px solid var(--accent);
   background: #fff;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.research-areas article:hover,
+.research-areas article:focus-within {
+  border-color: #b9c9c8;
+  border-top-color: var(--accent-dark);
+  background: #f2f6f5;
+  box-shadow: 0 5px 16px rgba(29, 37, 44, 0.07);
 }
 
 .area-number {
@@ -152,10 +161,15 @@ section { padding: 52px 0; border-bottom: 1px solid var(--line); }
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
   gap: 30px;
-  padding: 30px 0;
+  margin: 0 -16px;
+  padding: 30px 16px;
   border-top: 1px solid var(--line);
+  border-radius: 4px;
+  transition: background-color 160ms ease;
 }
-.publication:first-child { border-top: 0; padding-top: 0; }
+.publication:first-child { border-top: 0; }
+.publication:hover,
+.publication:focus-within { background: #f3f5f5; }
 
 .paper-image {
   display: block;
@@ -164,8 +178,14 @@ section { padding: 52px 0; border-bottom: 1px solid var(--line); }
   overflow: hidden;
   border: 1px solid var(--line);
   background: var(--soft);
+  transition: border-color 160ms ease, box-shadow 160ms ease;
 }
 .paper-image img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.publication:hover .paper-image,
+.publication:focus-within .paper-image {
+  border-color: #b9c3c6;
+  box-shadow: 0 3px 10px rgba(29, 37, 44, 0.08);
+}
 .publication h3 { margin: 0 0 7px; font-size: 16px; line-height: 1.42; }
 .publication h3 a { color: var(--ink); }
 .publication h3 a:hover { color: var(--accent); }
@@ -218,4 +238,9 @@ footer p { margin: 0; color: var(--muted); font-size: 12px; }
   .profile-links a + a::before { margin-right: 12px; }
 }
 
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .research-areas article,
+  .publication,
+  .paper-image { transition: none; }
+}
