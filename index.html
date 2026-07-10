@@ -10,8 +10,20 @@
     <title>Yang Zhou</title>
   </head>
   <body>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <div class="nav-inner">
+        <a class="nav-name" href="#about">Yang Zhou</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#news">News</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#more">More</a>
+        </div>
+      </div>
+    </nav>
     <main>
-      <header class="intro">
+      <header class="intro" id="about">
         <div class="intro-copy">
           <h1>Yang Zhou <span lang="zh">周旸</span></h1>
           <p>
@@ -39,7 +51,7 @@
         <img class="portrait" src="images/webtemphead1.png" alt="Yang Zhou" width="320" height="400">
       </header>
 
-      <section aria-labelledby="news-heading">
+      <section id="news" aria-labelledby="news-heading">
         <div class="section-heading">
           <h2 id="news-heading">News</h2>
         </div>
@@ -57,7 +69,7 @@
         </div>
       </section>
 
-      <section aria-labelledby="research-heading">
+      <section id="research" aria-labelledby="research-heading">
         <div class="section-heading">
           <h2 id="research-heading">Research</h2>
           <p>Efficient training, evaluation, and inference for reasoning models.</p>
@@ -81,7 +93,7 @@
         </div>
       </section>
 
-      <section aria-labelledby="publications-heading">
+      <section id="publications" aria-labelledby="publications-heading">
         <div class="section-heading">
           <h2 id="publications-heading">Selected Publications</h2>
           <p><strong>*</strong> denotes equal contribution.</p>
@@ -188,7 +200,7 @@
         </div>
       </section>
 
-      <section class="two-column" aria-label="Additional information">
+      <section class="two-column" id="more" aria-label="Additional information">
         <div>
           <h2>Selected Honors</h2>
           <ul>
