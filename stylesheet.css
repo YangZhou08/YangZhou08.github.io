@@ -248,6 +248,7 @@ section { padding: 70px 0; border-bottom: 1px solid var(--line); }
 .publication h3 a:hover { color: var(--accent); }
 .authors, .venue, .summary { margin-bottom: 6px; }
 .authors { font-size: 13px; line-height: 1.5; }
+.author-note { margin: -2px 0 6px; color: var(--muted); font-size: 12px; line-height: 1.45; }
 .venue { color: var(--muted); font-size: 13px; font-style: italic; }
 .venue-stack > span { display: block; margin-bottom: 2px; }
 .accolade { display: inline-block; margin-left: 5px; color: #b42318; font-family: Georgia, "Times New Roman", serif; font-size: 11px; font-style: normal; font-weight: 700; letter-spacing: .025em; text-transform: uppercase; vertical-align: 0; }
