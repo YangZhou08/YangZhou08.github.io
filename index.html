@@ -67,6 +67,7 @@
           <div class="sidebar-news" id="news">
             <h2>News</h2>
             <div class="sidebar-news-list" tabindex="0" aria-label="News archive">
+              <p><time datetime="2026-11">Nov 2026</time><span>Released <a href="https://infini-ai-lab.github.io/singularity-bench/"><strong>Singularity-Bench</strong></a>, a benchmark for autonomous AI development.</span></p>
               <p><time>Apr 2026</time><span>Served on the <strong>ICML 2026 Program Committee</strong>.</span></p>
               <p><time>Mar 2026</time><span><strong>Sparse Attention for Efficient LLM Reinforcement Learning</strong> accepted to SPOT at ICLR 2026.</span></p>
               <p><time>Feb 2026</time><span><strong>Jackpot</strong> accepted to ICLR 2026.</span></p>
@@ -125,6 +126,8 @@
         <div class="publication-tools" aria-label="Publication display options">
           <button class="is-active" type="button" data-topic-filter="all">all</button>
           <span>/</span>
+          <button type="button" data-topic-filter="AI Agents">AI Agents</button>
+          <span>/</span>
           <button type="button" data-topic-filter="Efficient RL">Efficient RL</button>
           <span>/</span>
           <button type="button" data-topic-filter="Long-context Reasoning">Long-context Reasoning</button>
@@ -134,6 +137,17 @@
           <button type="button" data-topic-filter="Edge AI">Edge AI</button>
         </div>
         <div class="publications">
+          <article class="publication" id="singularity-bench" data-topic="AI Agents">
+            <a class="paper-image" href="https://infini-ai-lab.github.io/singularity-bench/"><img src="https://arxiv.org/html/2611.16591v2/figure1.png" alt="Singularity-Bench results across frontier agents" loading="lazy"></a>
+            <div>
+              <h3><a href="https://arxiv.org/abs/2611.16591">Singularity-Bench: Can Agents Build Agents?</a></h3>
+              <p class="authors"><strong>Yang Zhou*</strong>, Krish Agarwal*, Zhuoming Chen*, Zerui Wang, Zhenyu Zhang, Wenshuang Li, Xinpeng Wei, Zhichen Zeng, Jingyu Liu, Jue Wang, Sen Wu, Ziheng Jiang, Zhen Dong, Han Cai, Binhang Yuan, Ying Sheng, Ce Zhang, Bo Li, Beidi Chen</p>
+              <p class="venue">Preprint, 2026</p>
+              <p class="paper-links"><a href="https://arxiv.org/abs/2611.16591">Paper</a><a href="https://github.com/Infini-AI-Lab/singularity-bench">Code</a><a href="https://infini-ai-lab.github.io/singularity-bench/">Project</a></p>
+              <p class="summary">Measures whether frontier agents can carry out six end-to-end AI development tasks spanning model training, inference, agent harnesses, and cluster orchestration.</p>
+            </div>
+          </article>
+
           <article class="publication" data-topic="Efficient RL">
             <a class="paper-image" href="https://infini-ai-lab.github.io/sparrow_project_release/"><img src="images/sparrow.png" alt="Sparrow sparse rollout overview" loading="lazy"></a>
             <div>
@@ -323,7 +337,7 @@
       </section>
 
       <footer>
-        <p>Last updated July 2026.</p>
+        <p>Last updated November 2026.</p>
         <a class="visit-counter" href="https://hits.sh/yangzhou08.github.io/" aria-label="View website visit statistics">
           <img src="https://hits.sh/yangzhou08.github.io.svg?style=flat-square&amp;label=visits&amp;color=176b73" alt="Website visit counter">
         </a>
